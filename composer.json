@@ -1,0 +1,34 @@
+{
+    "name": "mr4-lc/finger-id",
+    "description": "Laravel finger id",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension", "finger", "id"],
+    "version": "0.0.1",
+    "homepage": "https://github.com/han48/mr4-lc.finger-id",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mr4",
+            "email": "zzz4everzzz@live.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": ">=1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mr4Lc\\FingerId\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mr4Lc\\FingerId\\FingerIderviceProvider"
+            ]
+        }
+    }
+}
