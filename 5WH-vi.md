@@ -7,7 +7,7 @@ Vấn đề:
 Giải pháp:
 - Đối với các ứng dụng trên nền tảng desktop có thể sử dụng Hardware ID để định danh người dùng (ví dụ như các trò chơi của Blizzard sử dụng cơ chế này để banned các tài khoản sử dụng hack, vì thế người dùng khi bị phát hiện sử dụng hack không có cách nào chơi game của Blizzard trên máy tính cũ được nữa, bắt buộc phải mua máy mới hoặc sử dụng kỹ thuật cao để sửa đổi Hardware ID).
 
-Vậy brower có Hardware ID không? Câu trả lời là có, ở brower thì sử dụng thuật ngữ là Browser fingerprint.
+Vậy browser có Hardware ID không? Câu trả lời là có, ở browser thì sử dụng thuật ngữ là Browser fingerprint.
 Các loại browser fingerprint:
 - Static fingerprint: là các thông tin không thay đổi hoặc ít thay đổi theo thời gian, như địa chỉ IP, user agent, độ phân giải màn hình, ngôn ngữ, múi giờ, các plugin và phông chữ được cài đặt, v.v. Các thông tin này có thể được thu thập bằng cách sử dụng các phương thức JavaScript đơn giản hoặc các yêu cầu HTTP.
 - Dynamic fingerprint: là các thông tin có thể thay đổi theo thời gian, như WebRTC, canvas, audio, v.v. Các thông tin này có thể được thu thập bằng cách sử dụng các phương thức JavaScript phức tạp hơn, như yêu cầu trình duyệt vẽ một hình ảnh hoặc phát một âm thanh và sau đó lấy mã băm của kết quả.
