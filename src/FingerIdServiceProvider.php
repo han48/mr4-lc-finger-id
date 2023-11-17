@@ -4,7 +4,7 @@ namespace Mr4Lc\FingerId;
 
 use Illuminate\Support\ServiceProvider;
 
-class FingerIderviceProvider extends ServiceProvider
+class FingerIdServiceProvider extends ServiceProvider
 {
 
     public $assets = __DIR__ . '/../resources/assets';

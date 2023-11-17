@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mr4Lc\\FingerId\\FingerIderviceProvider"
+                "Mr4Lc\\FingerId\\FingerIdServiceProvider"
             ]
         }
     }
